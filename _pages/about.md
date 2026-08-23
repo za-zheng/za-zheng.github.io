@@ -24,11 +24,13 @@ redirect_from:
 Prior to my master's studies, I received my Bachelor's degree in Automation from South China University of Technology in 2021. During my undergraduate years, I worked on intelligent edge devices under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**.
 
 
+<span class='anchor' id='educations'></span>
 # 📖 Educations
 - *2021.09 - 2024.06*, Master of Electronic Information in School of Automation Science and Engineering, SCUT, Guangzhou. GPA: 3.62 / 4.0.
 - *2017.09 - 2021.06*, Bachelor of Automation in School of Automation Science and Engineering, SCUT, Guangzhou. Direct Postgraduate Admission. Direct Master's Admission (Exam-Exempt).
 
 
+<span class='anchor' id='projects'></span>
 # 💼 Projects
 ## Hip‑Assist Exoskeleton
 - **Assistive torque curve optimization.** Lower-limb exoskeletons suffered from mismatched assistance and unnatural motion during gait transitions. We designed a start-stop gating mechanism and leveraged the hip-joint motion angle difference to adaptively tune the assistive torque curve. Then, improved assistance coordination and reduced wearer effort by **[XX%]**.
@@ -63,6 +65,7 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 <!-- - **基于蒙特卡洛的体积积分。** 基于蒙特卡洛法，通过非线性积分求解喷油嘴流出的燃油总体积。 -->
 
 
+<span class='anchor' id='publications'></span>
 # 📝 Publications
 
 ## Biometrics
@@ -73,10 +76,12 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - "FVT: FV transformer for authentication". Huang, J., Luo, W., Yang, W., **<u>Zheng, A.</u>**, Lian, F., & Kang, W. IEEE Transactions on Instrumentation and Measurement. (2022) [[link]](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C)
 
 
+<span class='anchor' id='academic-activities'></span>
 # ⚙️ Academic Activities
 - Reviewer for IEEE Signal Processing Letters.
 
 
+<span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
 **Competition Awards** 
@@ -92,10 +97,12 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - Hongping-Changqing Fund Scholarship ✖ 2
 - Innovation Cultivation Fund-Scholarship in School of Automation Science and Engineering
 
+<span class='anchor' id='skills'></span>
 # 💻 Skills
 - Familiar with deep learning algorithms, including deep feature extraction and neural network compression algorithms.
 - Familiar with Python, C/C++, and PyTorch, experienced in developing deep learning algorithms on Linux.
 - Familiar with the basic knowledge of intelligent devices.
+<span class='anchor' id='social-practice-experience'></span>
 # ☘️ Social Practice Experience
 - *2023.09 - 2024.01*, Momenta Guangzhou[[1]](https://www.momenta.cn/ch/)[[2]](https://www.momenta.cn/article/581.html), software engineer for Autonomous Driving System.
 <!-- L2 Level Mass Production Autonomous Driving System-->
