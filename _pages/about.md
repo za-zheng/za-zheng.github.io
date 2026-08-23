@@ -45,10 +45,10 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - **ViT Pruning for FV Authentication.** FV ViTs are parameter-heavy and computationally expensive. Compressed the FV ViT with minimal accuracy loss: (1) pretrained a FV Transformer; (2) built a **dependency graph** to group network components; (3) evaluated group-norm importance and pruned redundant attention heads and feed-forward networks at the group level; (4) fine-tuned with a small learning rate. Params and FLOPs were substantially reduced with only slight accuracy loss, yielding a lightweight Transformer-based FV model.
 - **3D FV Reconstruction.** 2D FV recognition is vulnerable to finger pitch and axial rotation. Reconstructed textured 3D finger models from three views, solving cross-sections via ellipse-prior constrained optimization, stitching them into a 3D finger shape, and fusing multi-view textures with region-weighted mapping. Cross-section fitting error ranged 0.1317–0.3674; on the reconstructed unwrapped image, EER for multi-pose data dropped from 22.32% to 6.64%.
 
-<!-- 中文对照
-- **指静脉认证网络CNN剪枝。** *[背景]* 指静脉认证CNN参数量大、计算开销高，且传统剪枝会破坏特征嵌入维度、适配性差。 *[任务/行动]* 设计适配指静脉认证CNN的结构化剪枝方法：①提出**嵌入保护层EP**，隔离剪枝层与输出嵌入，保证剪枝后特征维度不变；②使用滤波器重要性评估筛选冗余滤波器；③采用**改进ADMM交替方向乘子法**做深层次交替优化；④重训练网络恢复性能。 *[结果]* 参数量、FLOPs下降50%以上；9个公开数据集上，DenseNet121-EP经PCFV剪枝后加权平均EER低至0.82%，优于L1-Prune、FPGM-Prune等经典剪枝算法，适合边缘设备部署。
-- **指静脉认证网络ViT剪枝。** *[背景]* ViT参数量大、计算成本高。 *[任务/行动]* 在尽量少损失精度前提下对指静脉ViT剪枝压缩：①预训练指静脉Transformer模型；②构建**依赖图**梳理组件依赖并分组；③按组范数评估重要性，组级别剪枝冗余注意力头与前馈网络；④小学习率重训练微调。 *[结果]* 参数量、FLOPs大幅削减，仅带来轻微识别性能损失，实现Transformer指静脉模型轻量化。
-- **三维指静脉重建。** *[背景]* 二维指静脉识别易受手指俯仰、轴向旋转影响。 *[任务/行动]* 利用三视角图像重建带静脉纹理的手指三维模型，以椭圆为先验做约束优化求解截面，拼接得到三维指形，分区域加权融合多视角纹理完成手指纹路映射。 *[结果]* 截面拟合误差0.1317–0.3674；重建展开图识别中，多位姿数据EER从22.32%降至6.64%。 -->
+<!-- 中文对照 -->
+<!-- - **指静脉认证网络CNN剪枝。** *[背景]* 指静脉认证CNN参数量大、计算开销高，且传统剪枝会破坏特征嵌入维度、适配性差。 *[任务/行动]* 设计适配指静脉认证CNN的结构化剪枝方法：①提出**嵌入保护层EP**，隔离剪枝层与输出嵌入，保证剪枝后特征维度不变；②使用滤波器重要性评估筛选冗余滤波器；③采用**改进ADMM交替方向乘子法**做深层次交替优化；④重训练网络恢复性能。 *[结果]* 参数量、FLOPs下降50%以上；9个公开数据集上，DenseNet121-EP经PCFV剪枝后加权平均EER低至0.82%，优于L1-Prune、FPGM-Prune等经典剪枝算法，适合边缘设备部署。 -->
+<!-- - **指静脉认证网络ViT剪枝。** *[背景]* ViT参数量大、计算成本高。 *[任务/行动]* 在尽量少损失精度前提下对指静脉ViT剪枝压缩：①预训练指静脉Transformer模型；②构建**依赖图**梳理组件依赖并分组；③按组范数评估重要性，组级别剪枝冗余注意力头与前馈网络；④小学习率重训练微调。 *[结果]* 参数量、FLOPs大幅削减，仅带来轻微识别性能损失，实现Transformer指静脉模型轻量化。 -->
+<!-- - **三维指静脉重建。** *[背景]* 二维指静脉识别易受手指俯仰、轴向旋转影响。 *[任务/行动]* 利用三视角图像重建带静脉纹理的手指三维模型，以椭圆为先验做约束优化求解截面，拼接得到三维指形，分区域加权融合多视角纹理完成手指纹路映射。 *[结果]* 截面拟合误差0.1317–0.3674；重建展开图识别中，多位姿数据EER从22.32%降至6.64%。  -->
 
 
 ## Mathematical Modeling
@@ -56,10 +56,10 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - **Needle-valve motion and flow-area modeling.** Modeled the relationship between needle-valve motion and fluid flow area to solve for the cam angular velocity and the injector opening/closing timing.
 - **Monte Carlo-based volume integration.** Solved the total fuel volume discharged from the injector via nonlinear integration based on the Monte Carlo method.
 
-<!-- 中文对照
-- **系统燃油质量衡算模型。** 提出系统级燃油质量衡算模型，以表征高压油管内质量变化关系。
-- **针阀运动与流体面积建模。** 建模针阀运动与流体面积的关系，用于求解凸轮角速度与喷油嘴开关时间。
-- **基于蒙特卡洛的体积积分。** 基于蒙特卡洛法，通过非线性积分求解喷油嘴流出的燃油总体积。 -->
+<!-- 中文对照 -->
+<!-- - **系统燃油质量衡算模型。** 提出系统级燃油质量衡算模型，以表征高压油管内质量变化关系。 -->
+<!-- - **针阀运动与流体面积建模。** 建模针阀运动与流体面积的关系，用于求解凸轮角速度与喷油嘴开关时间。 -->
+<!-- - **基于蒙特卡洛的体积积分。** 基于蒙特卡洛法，通过非线性积分求解喷油嘴流出的燃油总体积。 -->
 
 
 # 📝 Publications 
