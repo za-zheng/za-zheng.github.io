@@ -6,14 +6,14 @@ main:
   - title: "Projects"
     url: "/#-projects"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
   - title: "Publications"
     url: "/#-publications"
 
   - title: "Academic Activities"
     url: "/#-academic-activities"
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
 
   - title: "Skills"
     url: "/#-skills"
