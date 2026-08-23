@@ -25,8 +25,9 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 
 
 # 📖 Educations
-- *2021.09 - 2024.06*, Master of Electronic Information in School of Automation Science and Engineering, SCUT, Guangzhou. 
-- *2017.09 - 2021.06*, Bachelor of Automation in School of Automation Science and Engineering, SCUT, Guangzhou. 
+- *2021.09 - 2024.06*, Master of Electronic Information in School of Automation Science and Engineering, SCUT, Guangzhou. GPA: 3.62 / 4.0.
+- *2017.09 - 2021.06*, Bachelor of Automation in School of Automation Science and Engineering, SCUT, Guangzhou. Direct Postgraduate Admission. Direct Master's Admission (Exam-Exempt).
+
 
 # 💼 Projects
 ## Hip‑Assist Exoskeleton
@@ -100,3 +101,6 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 <!-- L2 Level Mass Production Autonomous Driving System-->
 <!-- - 2025.07-now, Algorithm Engineer - Exoskeleton Robotics, in [LEQI](https://www.lqwheel.com/). -->
 - 2018, 2019, and 2020, Outstanding Volunteer in Shantou Winter Vacation Social Practice for High School Promotion (Alma Mater Visit Campaign), responsible for organization and promotion.
+
+
+<!-- 还差：1、绩点  2、助力算法各种算法指标  3、陶瓷的语音方向、efficient ai方向的总结 -->
