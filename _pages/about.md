@@ -97,7 +97,7 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - Familiar with Python, C/C++, and PyTorch, experienced in developing deep learning algorithms on Linux.
 - Familiar with the basic knowledge of intelligent devices.
 # ☘️ Social Practice Experience
-- *2023.09 - 2024.01*, [Momenta](https://www.momenta.cn/ch/), Guangzhou, software engineer for Autonomous Driving System.
+- *2023.09 - 2024.01*, Momenta[[1]](https://www.momenta.cn/ch/),[[2]](https://www.momenta.cn/article/581.html) Guangzhou, software engineer for Autonomous Driving System.
 <!-- L2 Level Mass Production Autonomous Driving System-->
 <!-- - 2025.07-now, Algorithm Engineer - Exoskeleton Robotics, in [LEQI](https://www.lqwheel.com/). -->
 - 2018, 2019, and 2020, Outstanding Volunteer in Shantou Winter Vacation Social Practice for High School Promotion (Alma Mater Visit Campaign), responsible for organization and promotion.
