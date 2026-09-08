@@ -26,8 +26,8 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 
 <span class='anchor' id='educations'></span>
 # 📖 Educations
-- *2021.09 - 2024.06*, Master of Electronic Information in School of Automation Science and Engineering, SCUT, Guangzhou. GPA: 3.62 / 4.0.
-- *2017.09 - 2021.06*, Bachelor of Automation in School of Automation Science and Engineering, SCUT, Guangzhou. Direct Postgraduate Admission. Direct Master's Admission (Exam-Exempt).
+- *2021.09 - 2024.06*, Master of Electronic Information in School of Automation Science and Engineering, SCUT(Project 985, Double First-Class University), Guangzhou. GPA: 3.62 / 4.0.
+- *2017.09 - 2021.06*, Bachelor of Automation in School of Automation Science and Engineering, SCUT(Project 985, Double First-Class University), Guangzhou. Direct Master's Admission (Exam-Exempt).
 
 
 <span class='anchor' id='projects'></span>
@@ -43,10 +43,14 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - **场景自适应识别。** *[任务/行动]* 调优场景自适应识别算法，以在不同场景下稳健识别地形与环境。 *[结果]* 未知场景识别准确率由 **[XX%]** 提升至 **[YY%]**。 -->
 
 
-## Neural Network Compression and Finger Vein(FV) Authentication
+## Neural Network Compression for Finger Vein (FV) Authentication
+*Supported by NSFGD Project, Grant No. 2022A1515010114.*
 - **CNN Pruning for FV Authentication.** FV authentication CNNs suffer from large parameter counts, high computational cost, and feature-embedding corruption under conventional pruning. Designed a structured pruning method tailored to FV CNNs: (1) proposed an **Embedding Protection layer (EP)** to isolate pruned layers from the output embedding, keeping the feature dimension unchanged; (2) used filter importance evaluation to remove redundant filters; (3) applied an **improved ADMM (Alternating Direction Method of Multipliers)** for deep alternating optimization; (4) retrained the network to recover performance. Params and FLOPs dropped by over 50%; on 9 public datasets, pruned DenseNet121-EP via PCFV achieved a weighted-average EER as low as 0.82%.
 - **ViT Pruning for FV Authentication.** FV ViTs are parameter-heavy and computationally expensive. Compressed the FV ViT with minimal accuracy loss: (1) pretrained a FV Transformer; (2) built a **dependency graph** to group network components; (3) evaluated group-norm importance and pruned redundant attention heads and feed-forward networks at the group level; (4) fine-tuned with a small learning rate. Params and FLOPs were substantially reduced with only slight accuracy loss, yielding a lightweight Transformer-based FV model.
-- **3D FV Reconstruction.** 2D FV recognition is vulnerable to finger pitch and axial rotation. Reconstructed textured 3D finger models from three views, solving cross-sections via ellipse-prior constrained optimization, stitching them into a 3D finger shape, and fusing multi-view textures with region-weighted mapping. Cross-section fitting error ranged 0.1317–0.3674; on the reconstructed unwrapped image, EER for multi-pose data dropped from 22.32% to 6.64%.
+
+## 3D FV Reconstruction
+*Supported by NSFC Project, Grant No. 61976095.*
+- 2D FV recognition is vulnerable to finger pitch and axial rotation. Reconstructed textured 3D finger models from three views, solving cross-sections via ellipse-prior constrained optimization, stitching them into a 3D finger shape, and fusing multi-view textures with region-weighted mapping. Cross-section fitting error ranged 0.1317–0.3674; on the reconstructed unwrapped image, EER for multi-pose data dropped from 22.32% to 6.64%.
 
 <!-- 中文对照 -->
 <!-- - **指静脉认证网络CNN剪枝。** *[背景]* 指静脉认证CNN参数量大、计算开销高，且传统剪枝会破坏特征嵌入维度、适配性差。 *[任务/行动]* 设计适配指静脉认证CNN的结构化剪枝方法：①提出**嵌入保护层EP**，隔离剪枝层与输出嵌入，保证剪枝后特征维度不变；②使用滤波器重要性评估筛选冗余滤波器；③采用**改进ADMM交替方向乘子法**做深层次交替优化；④重训练网络恢复性能。 *[结果]* 参数量、FLOPs下降50%以上；9个公开数据集上，DenseNet121-EP经PCFV剪枝后加权平均EER低至0.82%，优于L1-Prune、FPGM-Prune等经典剪枝算法，适合边缘设备部署。 -->
@@ -66,14 +70,17 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications
+# 📝 Publications and Patents
 
-## Biometrics
+## Publications
 - "FV-Prune: CNN Compression Based on Network Pruning for FV Authentication." (**<u>Draft</u>**) **<u>Zheng, A. </u>** et al.
 
 - "FVFSNet: Frequency-spatial coupling network for FV authentication." Huang, J., **<u>Zheng, A.</u>**, Shakeel, M. S., Yang, W., & Kang, W. (2023). [[link]](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:9yKSN-GCB0IC)
 
 - "FVT: FV transformer for authentication". Huang, J., Luo, W., Yang, W., **<u>Zheng, A.</u>**, Lian, F., & Kang, W. IEEE Transactions on Instrumentation and Measurement. (2022) [[link]](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C)
+
+## Patents
+- **Zheng, A.**, Kang, W., Deng, F., Huang, J., & Chen, R. *A Vein Authentication Method, Medium, and Apparatus Based on Network Pruning.* Chinese invention patent, Patent No. ZL202410431292.8 (Grant Publication No. CN118230369B); granted on Jan. 6, 2026.
 
 
 <span class='anchor' id='academic-activities'></span>
@@ -87,9 +94,9 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 **Competition Awards** 
 - Second Prize in the Challenge Cup Technology Competition at SCUT, Full-View 3D FV High-Security Identification System.
 
-- National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [code](https://github.com/Sahala08/CUMCM2019-A).
+- National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/za-zheng/CUMCM2019-A/blob/main/docs/A201919002111.pdf), [code](https://github.com/za-zheng/CUMCM2019-A).
 
-- National Second Prize in the NXP Cup College Students Intelligent Car Competition, [our car](/images/Intelligent_Vehicle.jpeg).
+- National Second Prize in the NXP Cup College Students Intelligent Car Competition, serving as team leader and captain, [our car](/images/Intelligent_Vehicle.jpeg).
 
 **Scholarship** 
 - Goodix Technology Scholarship
