@@ -3,14 +3,18 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Projects"
+    url: "/#-projects"
 
-  - title: "Publications"
+  - title: "Publications and Patents"
     url: "/#-publications"
+
 
   - title: "Academic Activities"
     url: "/#-academic-activities"
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
 
   - title: "Skills"
     url: "/#-skills"

@@ -98,11 +98,12 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 # 🎖 Honors and Awards
 
 **Competition Awards** 
-- Second Prize in the Challenge Cup Technology Competition at SCUT, Full-View 3D FV High-Security Identification System.
 
 - National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/za-zheng/CUMCM2019-A/blob/main/docs/A201919002111.pdf), [code](https://github.com/za-zheng/CUMCM2019-A).
 
 - National Second Prize in the NXP Cup College Students Intelligent Car Competition, serving as team leader and captain, [our car](/images/Intelligent_Vehicle.jpeg).
+
+- Second Prize in the Challenge Cup Technology Competition at SCUT, Full-View 3D FV High-Security Identification System.
 
 **Scholarship** 
 - Goodix Technology Scholarship
