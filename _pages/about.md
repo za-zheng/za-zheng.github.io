@@ -33,11 +33,14 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 <span class='anchor' id='projects'></span>
 # 💼 Projects
 ## Hip‑Assist Exoskeleton
+
+*Role: Core member of the exoskeleton AI algorithm team.*
 - **Assistive torque curve optimization.** Lower-limb exoskeletons suffered from mismatched assistance and unnatural motion during gait transitions. We designed a start-stop gating mechanism and leveraged the hip-joint motion angle difference to adaptively tune the assistive torque curve. Then, improved assistance coordination and reduced wearer effort by **[XX%]**.
 - **Gait-adaptive AI algorithm.** Developed and optimized a gait-adaptive AI algorithm that automatically adjusts assistance in real time to the user's walking pattern. Increased gait-adaptation accuracy / smoothness by **[XX%]**.
 - **Scene-adaptive recognition.** Tuned scene-adaptive recognition algorithms to robustly identify terrains and environments across varying scenarios. Boosted recognition accuracy in unseen scenarios from **[XX%]** to **[YY%]**.
 
 <!-- 中文对照
+角色：外骨骼AI算法骨干（团队核心成员）
 - **助力曲线优化。** *[背景]* 下肢助力外骨骼在步态切换时存在助力不匹配、运动不自然的问题。 *[任务/行动]* 设计了启停门控机制，并利用髋关节运动角度差自适应调优助力曲线。 *[结果]* 改善了助力协调性，使穿戴者费力降低 **[XX%]**。
 - **步态自适应AI算法。** *[任务/行动]* 开发并优化了一种步态自适应AI算法，可依据用户行走姿态实时自动调整助力。 *[结果]* 步态自适应准确率/流畅度提升 **[XX%]**。
 - **场景自适应识别。** *[任务/行动]* 调优场景自适应识别算法，以在不同场景下稳健识别地形与环境。 *[结果]* 未知场景识别准确率由 **[XX%]** 提升至 **[YY%]**。 -->
@@ -59,11 +62,14 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 
 
 ## Mathematical Modeling
+
+*Awarded the National First Prize in the Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM 2019).*
 - **System fuel mass balance model.** Proposed a system-level fuel mass balance model to characterize the mass variation relationship within the high-pressure oil pipe.
 - **Needle-valve motion and flow-area modeling.** Modeled the relationship between needle-valve motion and fluid flow area to solve for the cam angular velocity and the injector opening/closing timing.
 - **Monte Carlo-based volume integration.** Solved the total fuel volume discharged from the injector via nonlinear integration based on the Monte Carlo method.
 
 <!-- 中文对照 -->
+<!-- 获奖：全国大学生数学建模竞赛（CUMCM 2019）国家一等奖 -->
 <!-- - **系统燃油质量衡算模型。** 提出系统级燃油质量衡算模型，以表征高压油管内质量变化关系。 -->
 <!-- - **针阀运动与流体面积建模。** 建模针阀运动与流体面积的关系，用于求解凸轮角速度与喷油嘴开关时间。 -->
 <!-- - **基于蒙特卡洛的体积积分。** 基于蒙特卡洛法，通过非线性积分求解喷油嘴流出的燃油总体积。 -->
