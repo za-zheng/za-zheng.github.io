@@ -35,9 +35,11 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 ## Hip‑Assist Exoskeleton
 
 *Role: Core member of the exoskeleton AI algorithm team.*
-- **Assistive torque curve optimization.** Lower-limb exoskeletons suffered from mismatched assistance and unnatural motion during gait transitions. We designed a start-stop gating mechanism and leveraged the hip-joint motion angle difference to adaptively tune the assistive torque curve. Then, improved assistance coordination and reduced wearer effort by **[XX%]**.
-- **Gait-adaptive AI algorithm.** Developed and optimized a gait-adaptive AI algorithm that automatically adjusts assistance in real time to the user's walking pattern. Increased gait-adaptation accuracy / smoothness by **[XX%]**.
-- **Scene-adaptive recognition.** Tuned scene-adaptive recognition algorithms to robustly identify terrains and environments across varying scenarios. Boosted recognition accuracy in unseen scenarios from **[XX%]** to **[YY%]**.
+- **Assistive Torque Curve Optimization.** Lower-limb exoskeletons can suffer from mismatched assistance and unnatural motion during gait transitions. We designed a start-stop gating mechanism and leveraged hip-joint angle differences to adaptively optimize the assistive torque curve, improving assistance coordination and reducing wearer effort by **[XX%]**.
+
+- **Gait-Adaptive AI Algorithm.** We developed and optimized a gait-adaptive AI algorithm that adjusts assistance in real time according to the user's walking pattern, improving gait-adaptation accuracy by **[XX%]**.
+
+- **Scene-Adaptive Recognition.** We developed and optimized scene-adaptive recognition algorithms to robustly identify terrains and environments under varying conditions, improving recognition accuracy in unseen scenarios from **[XX%]** to **[YY%]**.
 
 <!-- 中文对照
 角色：外骨骼AI算法骨干（团队核心成员）
@@ -48,12 +50,12 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 
 ## Neural Network Compression for Finger Vein (FV) Authentication
 *Supported by NSFGD Project, Grant No. 2022A1515010114.*
-- **CNN Pruning for FV Authentication.** FV authentication CNNs suffer from large parameter counts, high computational cost, and feature-embedding corruption under conventional pruning. Designed a structured pruning method tailored to FV CNNs: (1) proposed an **Embedding Protection layer (EP)** to isolate pruned layers from the output embedding, keeping the feature dimension unchanged; (2) used filter importance evaluation to remove redundant filters; (3) applied an **improved ADMM (Alternating Direction Method of Multipliers)** for deep alternating optimization; (4) retrained the network to recover performance. Params and FLOPs dropped by over 50%; on 9 public datasets, pruned DenseNet121-EP via PCFV achieved a weighted-average EER as low as 0.82%.
-- **ViT Pruning for FV Authentication.** FV ViTs are parameter-heavy and computationally expensive. Compressed the FV ViT with minimal accuracy loss: (1) pretrained a FV Transformer; (2) built a **dependency graph** to group network components; (3) evaluated group-norm importance and pruned redundant attention heads and feed-forward networks at the group level; (4) fine-tuned with a small learning rate. Params and FLOPs were substantially reduced with only slight accuracy loss, yielding a lightweight Transformer-based FV model.
+- **CNN Pruning for FV Authentication.** FV authentication CNNs suffer from large parameter counts, high computational costs, and feature-embedding corruption under conventional pruning. We developed a structured pruning method tailored to FV CNNs: (1) proposed an **Embedding Protection (EP) layer** to isolate pruned layers from the output embedding while preserving the feature dimension; (2) evaluated filter importance to remove redundant filters; (3) applied an **improved ADMM (Alternating Direction Method of Multipliers)** for deep alternating optimization; and (4) retrained the pruned network to recover performance. The proposed method reduced both Params and FLOPs by over 50%. Across nine public datasets, the pruned DenseNet121-EP using PCFV achieved a weighted-average EER as low as 0.82%.
+- **ViT Pruning for FV Authentication.** FV ViTs are parameter-heavy and computationally expensive. We developed a pruning method to compress FV ViTs with minimal accuracy loss: (1) pretrained an FV Transformer; (2) constructed a **dependency graph** to group structurally dependent network components; (3) evaluated group-level importance and pruned redundant attention heads and feed-forward network components; and (4) fine-tuned the pruned model with a small learning rate. The proposed method substantially reduced Params and FLOPs with only a slight accuracy drop, yielding a lightweight Transformer-based FV authentication model.
 
 ## 3D FV Reconstruction
 *Supported by NSFC Project, Grant No. 61976095.*
-- 2D FV recognition is vulnerable to finger pitch and axial rotation. Reconstructed textured 3D finger models from three views, solving cross-sections via ellipse-prior constrained optimization, stitching them into a 3D finger shape, and fusing multi-view textures with region-weighted mapping. Cross-section fitting error ranged 0.1317–0.3674; on the reconstructed unwrapped image, EER for multi-pose data dropped from 22.32% to 6.64%.
+- 2D FV recognition is vulnerable to variations in finger pitch and axial rotation. We reconstructed textured 3D finger models from three views by fitting cross-sections via ellipse-prior-constrained optimization, stitching the fitted cross-sections into a 3D finger surface, and fusing multi-view textures using region-weighted mapping. Cross-section fitting errors ranged from 0.1317 to 0.3674; on the reconstructed unwrapped images, the EER for multi-pose data decreased from 22.32% to 6.64%.
 
 <!-- 中文对照 -->
 <!-- - **指静脉认证网络CNN剪枝。** *[背景]* 指静脉认证CNN参数量大、计算开销高，且传统剪枝会破坏特征嵌入维度、适配性差。 *[任务/行动]* 设计适配指静脉认证CNN的结构化剪枝方法：①提出**嵌入保护层EP**，隔离剪枝层与输出嵌入，保证剪枝后特征维度不变；②使用滤波器重要性评估筛选冗余滤波器；③采用**改进ADMM交替方向乘子法**做深层次交替优化；④重训练网络恢复性能。 *[结果]* 参数量、FLOPs下降50%以上；9个公开数据集上，DenseNet121-EP经PCFV剪枝后加权平均EER低至0.82%，优于L1-Prune、FPGM-Prune等经典剪枝算法，适合边缘设备部署。 -->
@@ -64,9 +66,9 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 ## Mathematical Modeling
 
 *Awarded the National First Prize in the Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM 2019).*
-- **System fuel mass balance model.** Proposed a system-level fuel mass balance model to characterize the mass variation relationship within the high-pressure oil pipe.
-- **Needle-valve motion and flow-area modeling.** Modeled the relationship between needle-valve motion and fluid flow area to solve for the cam angular velocity and the injector opening/closing timing.
-- **Monte Carlo-based volume integration.** Solved the total fuel volume discharged from the injector via nonlinear integration based on the Monte Carlo method.
+- **System fuel mass balance model.** We proposed a system-level fuel mass balance model to characterize the mass variation relationship within the high-pressure oil pipe.
+- **Needle-valve motion and flow-area modeling.** We modeled the relationship between needle-valve motion and fluid flow area to solve for the cam angular velocity and the injector opening/closing timing.
+- **Monte Carlo-based volume integration.** We solved the total fuel volume discharged from the injector via nonlinear integration based on the Monte Carlo method.
 
 <!-- 中文对照 -->
 <!-- 获奖：全国大学生数学建模竞赛（CUMCM 2019）国家一等奖 -->
