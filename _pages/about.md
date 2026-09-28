@@ -21,8 +21,6 @@ redirect_from:
 
 <!-- I have published 2 papers at the IEEE Transactions <a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, co-operated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**. -->
 
-<!-- Prior to my master's studies, I received my Bachelor's degree in Automation from SCUT in 2021. During my undergraduate years, I worked on intelligent algorithms for edge devices such as 控制算法用于智能车、神经网络方法用于三维指静脉、压力控制策略用于高压油管。
- -->
 
 Prior to my master's studies, I received my Bachelor's degree in Automation from SCUT in 2021. During my studies, **I worked on intelligent algorithms and control methods for various applications**, including neural network methods for 3D finger-vein(FV) authentication, intelligent control algorithms for autonomous vehicles, and pressure control strategies for high-pressure fuel pipelines.
 
@@ -71,7 +69,7 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 ## Mathematical Modeling
 
 *Awarded the National First Prize in the Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM 2019).*
-- **System fuel mass balance model.** We proposed a system-level fuel mass balance model to characterize the mass variation relationship within the high-pressure oil pipe.
+- **System fuel mass balance model.** We proposed a system-level fuel mass balance model to characterize the mass variation relationship within the high-pressure fuel pipe.
 - **Needle-valve motion and flow-area modeling.** We modeled the relationship between needle-valve motion and fluid flow area to solve for the cam angular velocity and the injector opening/closing timing.
 - **Monte Carlo-based volume integration.** We solved the total fuel volume discharged from the injector via nonlinear integration based on the Monte Carlo method.
 
