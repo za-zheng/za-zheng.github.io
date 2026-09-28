@@ -35,11 +35,9 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 ## Hip‑Assist Exoskeleton
 
 *Role: Core member of the exoskeleton AI algorithm team.*
-- **Assistive Torque Curve Optimization.** Lower-limb exoskeletons can suffer from mismatched assistance and unnatural motion during gait transitions. We designed a start-stop gating mechanism and leveraged hip-joint angle differences to adaptively optimize the assistive torque curve, improving assistance coordination and reducing wearer effort by **[XX%]**.
+- **Assistive Torque Curve Optimization.** Lower-limb exoskeletons can suffer from mismatched assistance and unnatural motion during gait transitions. We designed a start-stop gating mechanism and leveraged hip-joint angle differences to adaptively optimize the assistive torque curve, improving assistance coordination and reducing wearer effort.
 
-- **Gait-Adaptive AI Algorithm.** We developed and optimized a gait-adaptive AI algorithm that adjusts assistance in real time according to the user's walking pattern, improving gait-adaptation accuracy by **[XX%]**.
-
-- **Scene-Adaptive Recognition.** We developed and optimized scene-adaptive recognition algorithms to robustly identify terrains and environments under varying conditions, improving recognition accuracy in unseen scenarios from **[XX%]** to **[YY%]**.
+- **Scene-Adaptive Recognition.** We developed a real-time terrain recognition algorithm for wearable exoskeletons, enabling robust detection of terrain transitions during continuous walking within three steps and supporting timely adaptation of assistance strategies across different terrains.
 
 <!-- 中文对照
 角色：外骨骼AI算法骨干（团队核心成员）
@@ -47,6 +45,8 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 - **步态自适应AI算法。** *[任务/行动]* 开发并优化了一种步态自适应AI算法，可依据用户行走姿态实时自动调整助力。 *[结果]* 步态自适应准确率/流畅度提升 **[XX%]**。
 - **场景自适应识别。** *[任务/行动]* 调优场景自适应识别算法，以在不同场景下稳健识别地形与环境。 *[结果]* 未知场景识别准确率由 **[XX%]** 提升至 **[YY%]**。 -->
 
+<!-- 
+- **Gait-Adaptive AI Algorithm.** We developed and optimized a gait-adaptive AI algorithm that adjusts assistance in real time according to the user's walking pattern, improving gait-adaptation accuracy by **[XX%]**.  -->
 
 ## Neural Network Compression for Finger Vein (FV) Authentication
 *Supported by NSFGD Project, Grant No. 2022A1515010114.*
