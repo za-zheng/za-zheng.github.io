@@ -21,7 +21,12 @@ redirect_from:
 
 <!-- I have published 2 papers at the IEEE Transactions <a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, co-operated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**. -->
 
-Prior to my master's studies, I received my Bachelor's degree in Automation from South China University of Technology in 2021. During my undergraduate years, I worked on intelligent edge devices under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**.
+<!-- Prior to my master's studies, I received my Bachelor's degree in Automation from SCUT in 2021. During my undergraduate years, I worked on intelligent algorithms for edge devices such as 控制算法用于智能车、神经网络方法用于三维指静脉、压力控制策略用于高压油管。
+ -->
+
+Prior to my master's studies, I received my Bachelor's degree in Automation from SCUT in 2021. During my studies, **I worked on intelligent algorithms and control methods for various applications**, including neural network methods for 3D finger-vein(FV) authentication, intelligent control algorithms for autonomous vehicles, and pressure control strategies for high-pressure fuel pipelines.
+
+<!-- During my undergraduate years, I worked on intelligent edge devices under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**. -->
 
 
 <span class='anchor' id='educations'></span>
@@ -48,7 +53,7 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 <!-- 
 - **Gait-Adaptive AI Algorithm.** We developed and optimized a gait-adaptive AI algorithm that adjusts assistance in real time according to the user's walking pattern, improving gait-adaptation accuracy by **[XX%]**.  -->
 
-## Neural Network Compression for Finger Vein (FV) Authentication
+## Neural Network Compression for FV Authentication
 *Supported by NSFGD Project, Grant No. 2022A1515010114.*
 - **CNN Pruning for FV Authentication.** FV authentication CNNs suffer from large parameter counts, high computational costs, and feature-embedding corruption under conventional pruning. We developed a structured pruning method tailored to FV CNNs: (1) proposed an **Embedding Protection (EP) layer** to isolate pruned layers from the output embedding while preserving the feature dimension; (2) evaluated filter importance to remove redundant filters; (3) applied an **improved ADMM (Alternating Direction Method of Multipliers)** for deep alternating optimization; and (4) retrained the pruned network to recover performance. The proposed method reduced both Params and FLOPs by over 50%. Across nine public datasets, the pruned DenseNet121-EP using PCFV achieved a weighted-average EER as low as 0.82%.
 - **ViT Pruning for FV Authentication.** FV ViTs are parameter-heavy and computationally expensive. We developed a pruning method to compress FV ViTs with minimal accuracy loss: (1) pretrained an FV Transformer; (2) constructed a **dependency graph** to group structurally dependent network components; (3) evaluated group-level importance and pruned redundant attention heads and feed-forward network components; and (4) fine-tuned the pruned model with a small learning rate. The proposed method substantially reduced Params and FLOPs with only a slight accuracy drop, yielding a lightweight Transformer-based FV authentication model.
